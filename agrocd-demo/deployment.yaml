@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:wrongtag
+        image: nginx
         ports:
         - containerPort: 80
